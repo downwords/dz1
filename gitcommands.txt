@@ -29,7 +29,9 @@ git bisect
 git blame
 git clone
 git fetch													скачать данные с удалённого репо
+git fetch origin ветка.локальная					
 git pull													это гит фетч + гит мердж
 git pull --rebase											выпулить ветвь, сделать на неё ребэйс
 git fakeTeamwork
 git branch -u origin/master название.ветки					создать такую-то ветвь, сделав её отслеживающей удалённую master
+git branch -M master
